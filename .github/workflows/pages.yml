@@ -32,7 +32,7 @@ jobs:
       - name: Build Web
         run: |
           flutter pub get
-          flutter build web --release --no-tree-shake-icons--base-href="/Insider-quiz-game/"
+          flutter build web --release --no-tree-shake-icons --base-href="/Insider-quiz-game/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
