@@ -329,7 +329,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget _buildTitleScreen() {
     return Column(
       children: [
-        const Text('インサイダーゲーム風\n(仮称)', textAlign: TextAlign.center, style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
+        const Text('インサイダークイズゲーム', textAlign: TextAlign.center, style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
         const SizedBox(height: 60),
         ElevatedButton(
           style: ElevatedButton.styleFrom(padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15)),
@@ -343,7 +343,7 @@ class _MainScreenState extends State<MainScreen> {
               context: context,
               builder: (context) => AlertDialog(
                 title: const Text('ルール説明'),
-                content: const Text('みんなでGMに質問して、お題を当てましょう。クイズ正解者の中に紛れ込んだ「インサイダー」を当てれば庶民の勝ちです。隠れ切れたら「インサイダー」の勝ち!\nスマホ1台をみんなで回して遊びます。'),
+                content: const Text('スマホ1台をみんなで回して遊びます。みんなでGMに質問して、お題を当てましょう。クイズ正解者の中に紛れ込んだ「インサイダー」を当てれば庶民の勝ちです。隠れ切れたら「インサイダー」の勝ち!'),
                 actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('閉じる'))],
               ),
             );
