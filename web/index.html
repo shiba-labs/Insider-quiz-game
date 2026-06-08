@@ -33,17 +33,21 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <!-- admax -->
-<script src="https://adm.shinobi.jp/s/f7872742eeca90fa3b8785eae0d289c0"></script>
-  <!-- admax -->
-   <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
+  <!-- 🔼 【上部バナー】画面の一番上に配置 -->
+  <div style="text-align: center; width: 100%; margin-top: 5px; margin-bottom: 5px;">
+    <!-- admax -->
+    <script src="https://adm.shinobi.jp/s/f7872742eeca90fa3b8785eae0d289c0"></script>
+    <!-- admax -->
+  </div>
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-   -->
+  <!-- 🎮 Flutterのゲーム本体がここに割り込みます -->
   <script src="flutter_bootstrap.js" async></script>
+
+  <!-- 🔽 【下部バナー】画面の一番下に配置 -->
+  <div style="text-align: center; width: 100%; margin-top: 5px; margin-bottom: 5px; position: fixed; bottom: 0; left: 0; z-index: 999;">
+    <!-- admax -->
+    <script src="https://adm.shinobi.jp/s/f7872742eeca90fa3b8785eae0d289c0"></script>
+    <!-- admax -->
+  </div>
 </body>
 </html>
