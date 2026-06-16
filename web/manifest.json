@@ -1,6 +1,6 @@
 {
-    "name": "insider_game_app",
-    "short_name": "insider_game_app",
+    "name": "insider_quiz_game_app",
+    "short_name": "insider_quiz_game_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
